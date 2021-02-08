@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -21,4 +25,32 @@ ul {
 
 li {
     margin: 0 15px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: coral;
+    
+}
+
+header {
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url('assets/header-image.jpg');
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+
 }
