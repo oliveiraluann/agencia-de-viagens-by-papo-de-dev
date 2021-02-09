@@ -9,28 +9,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: auto 30px;
-}
-nav p {
-    font-weight: bold;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-}
-
-li {
-    margin: 0 15px;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
 button {
     padding: 10px 15px;
     border-radius: 8px;
@@ -45,6 +23,24 @@ header {
     background: no-repeat center/cover url('assets/header-image.jpg');
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+header nav p {
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
 .header-content {
     max-width: 400px;
     margin: 150px auto;
@@ -52,5 +48,6 @@ header {
 }
 
 .header-content h1 {
-
+    margin-bottom: 10px;
+    font-size: 4rem;
 }
