@@ -53,15 +53,52 @@ header nav ul li {
 }
 
 .pacotes {
-    height: 500px;
+    background: #ccc;
+    padding: 15px;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
 }
 
 .pacotes .card {
     width: 250px;
     height: 350px;
-    background: green;
+    background: white;
     border-radius: 24px 0;
-    margin: 100px auto;
+    margin: 25px auto;
+    position: relative;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background: coral;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: dodgerblue;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: .8rem;
 }
 
 .pacotes .card-content {
@@ -80,12 +117,14 @@ header nav ul li {
     display: flex;
     align-items: center;
     margin: 3px 0;
+    color: gray;
 }
 
 .pacotes .card-content li svg {
     width: 18px;
     height: 18px;
     margin-right: 10px;
+    color: gray;
 }
 
 .pacotes .card-image {
