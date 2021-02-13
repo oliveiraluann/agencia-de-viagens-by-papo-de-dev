@@ -142,6 +142,64 @@ header nav ul li {
     font-size: 1rem;
 }
 
+.servios {
+    padding: 15px;
+}
+
+.servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover {
+    stroke: dodgerblue;
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    color: gray;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.servicos button {
+    background: dodgerblue;
+}
+
 
 /*Landscape phone to portrait tablet*/
 
