@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -15,7 +14,7 @@ button {
     font-weight: bold;
     border: 0;
     background: coral;
-    font-family: 'Montserrat', sans-serif;   
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -28,6 +27,7 @@ header nav {
     justify-content: space-between;
     margin: auto 30px;
 }
+
 header nav p {
     font-weight: bold;
 }
@@ -142,17 +142,18 @@ header nav ul li {
     font-size: 1rem;
 }
 
-/*Landscape phone to portrait tablet*/
-@media (max-width: 767px) {
 
-}
+/*Landscape phone to portrait tablet*/
+
+@media (max-width: 767px) {}
+
 
 /*Landscape phones and down*/
-@media (max-width: 480px) {
-body {
-    margin-bottom: 55px;
-}
 
+@media (max-width: 480px) {
+    body {
+        margin-bottom: 55px;
+    }
     header nav ul {
         position: fixed;
         bottom: 0;
@@ -169,7 +170,6 @@ body {
         align-items: center;
         z-index: 99;
     }
-
     header nav p {
         width: 100%;
         text-align: center;
