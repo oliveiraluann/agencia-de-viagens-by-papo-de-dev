@@ -60,11 +60,15 @@ header nav ul li {
 .pacotes .pacotes-title {
     width: 100%;
     text-align: center;
-    margin: auto;
+    margin: 25px 0;
 }
 
 .pacotes .pacotes-cards {
     display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .pacotes .card {
@@ -72,7 +76,7 @@ header nav ul li {
     height: 350px;
     background: white;
     border-radius: 24px 0;
-    margin: 25px auto;
+    margin: 25px;
     position: relative;
 }
 
@@ -131,6 +135,7 @@ header nav ul li {
     width: 250px;
     height: 200px;
     border-radius: 24px 0 0 0;
+    object-fit: cover;
 }
 
 .pacotes .card-content h1 {
@@ -145,7 +150,7 @@ header nav ul li {
 /*Landscape phones and down*/
 @media (max-width: 480px) {
 body {
-    height: calc(100vh - 55px);
+    margin-bottom: 55px;
 }
 
     header nav ul {
@@ -162,6 +167,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        z-index: 99;
     }
 
     header nav p {
