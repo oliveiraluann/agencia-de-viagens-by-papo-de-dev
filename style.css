@@ -166,7 +166,7 @@ header nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .servicos .card svg {
@@ -199,6 +199,13 @@ header nav ul li {
 .servicos button {
     background: dodgerblue;
 }
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
 
 
 /*Landscape phone to portrait tablet*/
