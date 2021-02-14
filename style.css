@@ -33,12 +33,15 @@ header nav p {
 }
 
 header nav ul {
-    list-style: none;
     display: flex;
 }
 
 header nav ul li {
     margin: 0 15px;
+}
+
+ul {
+    list-style: none;
 }
 
 .header-content {
@@ -112,7 +115,6 @@ header nav ul li {
 .pacotes .card-content ul {
     display: flex;
     flex-direction: column;
-    list-style: none;
     padding: 0;
 }
 
@@ -205,8 +207,45 @@ header nav ul li {
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
-  }
+}
 
+.contato {
+    padding: 60px 20%;
+    background: #ccc;
+    position: relative;
+}
+.contato .contato-card {
+    width: 350px;
+    height: 300px;
+    background: whitesmoke;
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-card h1 {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.contato .contato-card li {
+    font-size: .8rem;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.contato .contato-card svg {
+    width: 16px;
+    margin: 10px;
+}
 
 /*Landscape phone to portrait tablet*/
 
