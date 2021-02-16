@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Dehore Travel</title>
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
@@ -15,26 +16,30 @@
         <nav>
             <p>Dehore Travel</p>
             <ul>
-                <li><a herf="#home">Home</a></li>
-                <li><a herf="#pacotes">Pacotes</a></li>
-                <li><a herf="#servicos">Serviços</a></li>
-                <li><a herf="#contatos">Contatos</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
+
         <div id="home" class="header-content">
             <h1>Montains</h1>
             <p>Conheça a estrada das montanhas. Aventure-se nessa imensidão de beleza. O embarque está próximo, junte-se a nós nessa invrível experiência.</p>
             <button>Saiba mais</button>
         </div>
     </header>
+
     <section id="pacotes" class="pacotes">
 
         <h1 class="pacotes-title">Conheça nossos pacotes</h1>
+
         <div class="pacotes-cards">
             <div class="card">
                 <div class="card-tag card-tag-top">
                     <p>Promoção</p>
                 </div>
+
                 <div class="card-tag card-tag-bottom">
                     <p>R$ 2.200,00</p>
                 </div>
@@ -54,6 +59,7 @@
                 <div class="card-tag card-tag-top">
                     <p>Promoção</p>
                 </div>
+
                 <div class="card-tag card-tag-bottom">
                     <p>R$ 2.200,00</p>
                 </div>
@@ -121,7 +127,8 @@
             </div>
         </div>
     </section>
-    <section id="contatos" class="contato">
+
+    <section id="contato" class="contato">
         <div class="contato-card">
             <h1>Entre em contato:</h1>
             <ul>
@@ -132,6 +139,7 @@
         </div>
         <div id="map"></div>
     </section>
+
     <script>
         feather.replace()
 
@@ -161,6 +169,7 @@
             });
         }
     </script>
+    
     <script
         src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=&v=weekly"
         async
